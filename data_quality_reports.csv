@@ -1,0 +1,13 @@
+﻿Metric,Before,After
+Total rows,630,612
+Exact duplicate rows,18,0
+Missing Customer_Email,48,0
+Missing Province,12,0
+Gender format variants,10,2
+Payment_Method format variants,14,5
+Order_Date unparseable/invalid,5,0
+Quantity outside business rule (1-20),3,3
+"Accuracy mismatch (non-promo, >1 baht)",43,43
+Order_Status non-standard rows,320,308
+Outliers outside IQR bound (non-promo),19,0
+Late loads (Load_Delay_Hours > 24h),48,48
